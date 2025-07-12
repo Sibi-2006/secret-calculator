@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+     <h1>Web Calculater</h1>
+    <div class="main">
+        <input type="text" id="display">
+        <div class="buttons">
+            <button onclick="press('1')">1</button>
+            <button onclick="press('2')">2</button>
+            <button onclick="press('3')">3</button>
+            <button onclick="press('+')">+</button>
+        </div>
+        <div class="buttons">
+            <button onclick="press('4')">4</button>
+            <button onclick="press('5')">5</button>
+            <button onclick="press('6')">6</button>
+            <button onclick="press('-')">-</button>
+        </div>
+        <div class="buttons">
+            <button onclick="press('7')">7</button>
+            <button onclick="press('8')">8</button>
+            <button onclick="press('9')">9</button>
+            <button onclick="press('*')">*</button>
+        </div> 
+        <div class="buttons">
+            <button onclick="clearDisplay()" style="background-color: #10a0fa;">C</button>
+            <button onclick="press('0')">0</button>
+            <button onclick="press('.')">.</button>
+            <button onclick="press('/')">/</button>
+        </div>
+           <button onclick="enter()" class="equal" >=</button>
+            
+        </div>
+
+        <button id="secretPage" onclick="window.open('secretpage.html','_self')">Go To Secrect Page🤫</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
