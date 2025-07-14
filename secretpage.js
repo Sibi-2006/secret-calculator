@@ -71,7 +71,7 @@ function SecretPage() {
     secretBtn.addEventListener('click', () => {
         secretBtn.style.display = "none";
 
-        photoBtn.href="secretPhoto.html"
+        photoBtn.href="secretPhoto.html";
         photoBtn.textContent="Secret Photo 📸"
 
         noteBtn.href="SecretNote.html";
