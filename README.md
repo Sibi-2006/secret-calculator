@@ -58,9 +58,6 @@ secret-calculator/
 
 This is a basic secret vault meant for **educational/demo purposes**. It’s not meant for storing real sensitive information. LocalStorage is not secure for actual private data.
 
----
-
-## 📸 Screenshots
 
 
 ---
