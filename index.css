@@ -1,0 +1,77 @@
+body{
+    background-color: #97f58ea2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #15ff00;
+    border-radius: 10%;
+    padding: 20px;
+    background-color: #15610ea9;
+    box-shadow: 3px 3px 10px #063102;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    gap: 10px;
+}
+.equal {
+    
+    width: 240px;
+    background-color: rgb(247, 104, 15);
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 7%;
+    margin: 15px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    
+}
+#secretPage{
+    height: 50px;
+    width: 240px;
+    background-color: #000;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 15px;
+    display: none;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: #30fc1d6b;
+    color: white;
+}
+#display{
+    height: 50px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(186, 201, 201);
+    border: 1px solid black;
+    padding-left: 10px;
+}
+h1{
+    text-align:center;
+    font-size: 50px;
+    color: rgb(0, 19, 36);
+    text-shadow: 3px 3px 5px black;
+}
