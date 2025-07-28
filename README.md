@@ -21,7 +21,7 @@ This isn't just a calculator — it's a **vault** for your private content. Ente
 
 ## 🎮 How to Use
 
-1. Open the calculator from [here](https://sibi-2006.github.io/secret-calculator/)
+1. Open the calculator from [here](https://sibi-2006.github.io/secret-calculator/) and type 123456 to "unlock"
 2. Use it as a normal calculator — no one suspects a thing 😏
 3. **Enter the secret code** and press the "Unlock" button
 4. Access the **secret notes** and **photo upload** sections
